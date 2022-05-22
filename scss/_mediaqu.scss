@@ -1,0 +1,60 @@
+@media (min-width:993px) {
+    .mostrar_2 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .hover_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mostrar_2 {
+        img {
+            border-radius: 25px;
+            height: 270px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .mostrar_1 {
+        display: none;
+    }
+
+
+    .menus {
+        display: flexbox;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media (max-width: 769px) {
+    .tamano_espacio {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 20px 0;
+    
+    }
+
+}
+
+
+@media (max-width: 560px) {
+    .text_tipe {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center !important;
+        align-items: center;
+    }
+}
